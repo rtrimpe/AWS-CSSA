@@ -1,4 +1,4 @@
-<center><img src="https://crate.io/static/images/aws-logo.png"></center>
+<center><img src="http://berytech.org/wp-content/uploads/2015/11/amazon-aws-logo.jpg"></center>
 <br>
 
 A curated list of AWS resources to prepare for the AWS Certifications
