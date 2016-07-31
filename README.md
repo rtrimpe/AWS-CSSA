@@ -1,4 +1,4 @@
-<center><img src="http://i.imgur.com/gqJGTLT.png"></center>
+<center><img src="https://crate.io/static/images/aws-logo.png"></center>
 <br>
 
 A curated list of AWS resources to prepare for the AWS Certifications
