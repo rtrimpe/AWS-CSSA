@@ -148,6 +148,7 @@ balancers, and storage</li>
 14. <a href="https://github.com/sriramsharma/aws_whitepapers">An app to track white AWS white papers I have read in preparation for architect certification.</a>
 15. <a href="https://www.youtube.com/watch?v=vIsVLX8o30k">Prepare for AWS Certifications - Webinar</a>
 16. <a href="https://www.youtube.com/watch?v=eCdsVy2NNJs">AWS Certifications for Teams - Webinar</a>
+17. <a href="http://www.leonardofed.io/aws-setup.html">Proper Setup pf a new AWS Account</a>
 
 <h2>Passing the AWS solutions architect - Associate exam > Blueprints exam</h2>
 
