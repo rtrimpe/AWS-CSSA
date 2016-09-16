@@ -271,7 +271,6 @@ That's it. I'm the number 16.891, not sure if this is small or big, or even if i
 <i>A redditor on r/aws gave awesome tips about <a href="https://www.reddit.com/r/aws/comments/4szokm/aws_csa_professional/d5dhvnd">the exam day</a></i>
 <center><img src="http://i.imgur.com/QhvMK2L.png"><center>
 
-
 <h2>Passing the AWS solutions architect - Associate exam > The Exam</h2>
 Exam Registration fee is USD 150
 <br>
@@ -283,23 +282,41 @@ It's possible to set a question for review and skip, you can get back to what yo
 Now you're ready to go. <a href="https://www.webassessor.com/wa.do?page=publicHome&branding=AMAZON">Here's where you book your exam!</a>
 <br>
 <br>
-<h2>Passing the AWS solutions architect - Associate exam > Exam Overview</h2>
+<h2>Passing the AWS solutions architect - Professional Exam > Exam Overview</h2>
 
 You will find you make less errors when you don’t feel rushed on time.
 
 
-The <b>AWS Certified Solutions Architect – Associate exam</b> is intended for individuals with experience designing distributed applications and systems on the AWS platform. 
+To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. In order to pass the exam you have to:
 
 <b>Exam concepts you should understand for this exam include:</b>
 
-1. Designing and deploying scalable, highly available, and fault tolerant systems on AWS
-2. Lift and shift of an existing on-premises application to AWS
-3. Ingress and egress of data to and from AWS
-4. Selecting the appropriate AWS service based on data, compute, database, or security requirements
-5. Identifying appropriate use of AWS architectural best practices
+1. Design and deploy dynamically scalable, highly available, and reliable applications on AWS
+2. Choosing appropriate AWS services to create and deploy an application based on specific requirements
+3. Migrating complex, multi-tier applications on AWS
+4. Designing and deploying enterprise-wide scalable operations on AWS
+5. Implementing cost control strategies
 6. Estimating AWS costs and identifying cost control mechanisms
- 
+<br>
+<b>Exam Overview</b>
+
+1. Multiple choice and multiple answer questions
+2. 170 minutes to complete the exam It's all multiple choice on a PC
+3. Exam available in English and Japanese
+4. Practice Exam Registration fee is USD 40
+5. The exam blueprint specified that there would be 100+ questions given in a 180 minute period and did not specify a pass grade. 
+6. The exam will test your knowledge with 180 questions
+7. In terms of question complexity, it is at about the level I expected and required a good understanding of all available AWS services. 
+8. AWS Certification passing scores are set by using statistical analysis and are subject to change. AWS does not publish exam passing scores because exam questions and passing scores are subject to change without notice.
+9. Exam Registration fee is USD 300
+10. Recommend taking Advanced Architecting on AWS
+11. Sample questions for the exam are available here.
+<br><br>
 <h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
+<br>
+Note that in the event that you fail to pass an <b>AWS certification exam</b>, you may retake the exam subject to the following conditions:
+a. You must wait 14 days from the day you fail to take the exam again.
+b. You can take an exam up to three times in one year from the date of your first attempt.
 
 
 Good Luck!
