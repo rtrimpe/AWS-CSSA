@@ -343,8 +343,8 @@ Note: Irish natives may use a Public Services Card as a primary form of identifi
 <li>Credit Card</li>
 <li>School ID (without a signature for minors is acceptable) any form of ID on the primary list</li>
 </ul>
-Note: In Japan, the blue colored (not pink) Health Insurance Card is an acceptable form of secondary identification. However, the paper form of the Health Insurance is not acceptable.
-You can NOT bring food, laptops, backpacks, notepads, or other personal equipment to the test area. For all exams, you can request a whiteboard and marker (some centers may hand out paper and pencil), which must be returned before you leave. During check in you’ll be asked to turn out your pockets (on jackets, pants, etc.) to verify they’re empty and free of prohibited items. Eyewear will also be inspected to ensure that it’s not technology-enabled.
-
+<br>Note: In Japan, the blue colored (not pink) Health Insurance Card is an acceptable form of secondary identification. <br>However, the paper form of the Health Insurance is not acceptable.
+<br>You can NOT bring food, laptops, backpacks, notepads, or other personal equipment to the test area. For all exams, you can request a whiteboard and marker (some centers may hand out paper and pencil), which must be returned before you leave. During check in you’ll be asked to turn out your pockets (on jackets, pants, etc.) to verify they’re empty and free of prohibited items. Eyewear will also be inspected to ensure that it’s not technology-enabled.
+<br><br>
 
 Good Luck!
