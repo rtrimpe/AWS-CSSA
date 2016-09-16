@@ -325,22 +325,24 @@ b. You can take an exam up to three times in one year from the date of your firs
 --
 
 Candidates must show two forms of personal identification (ID). Primary form must be a valid, government-issued ID containing both a photo and signature. The secondary form of ID needs to be valid and contain a signature.
- 
+ <br>
 Acceptable Forms of Primary ID (name, photograph, signature, valid/current):
-Government-issued Driver’s license
-U.S. Department of State Driver’s License
-National/State/Country Identification Card
-Passport
-Passport cards
-Military ID
-Alien Registration Card (Green Card, Permanent Resident Visa)
-Note: Irish natives may use a Public Services Card as a primary form of identification, in Ireland only.
-Acceptable forms of Secondary ID (name, signature, valid/current):
-U.S. Social Security Card
-Debit/(ATM) Card
-Credit Card
-School ID (without a signature for minors is acceptable)
-any form of ID on the primary list
+<ul>
+    <li>Government-issued Driver’s license</li>
+    <li>U.S. Department of State Driver’s License</li>
+    <li>National/State/Country Identification Card</li>
+    <li>Passport</li>
+    <li>Passport cards</li>
+    <li>Military ID</li>
+    <li>Alien Registration Card (Green Card, Permanent Resident Visa)</li>
+</ul>
+Note: Irish natives may use a Public Services Card as a primary form of identification, in Ireland only.</li>
+<li>Acceptable forms of Secondary ID (name, signature, valid/current):</li>
+<li>U.S. Social Security Card</li>
+<li>Debit/(ATM) Card</li>
+<li>Credit Card</li>
+<li>School ID (without a signature for minors is acceptable) any form of ID on the primary list</li>
+</ul>
 Note: In Japan, the blue colored (not pink) Health Insurance Card is an acceptable form of secondary identification. However, the paper form of the Health Insurance is not acceptable.
 You can NOT bring food, laptops, backpacks, notepads, or other personal equipment to the test area. For all exams, you can request a whiteboard and marker (some centers may hand out paper and pencil), which must be returned before you leave. During check in you’ll be asked to turn out your pockets (on jackets, pants, etc.) to verify they’re empty and free of prohibited items. Eyewear will also be inspected to ensure that it’s not technology-enabled.
 
