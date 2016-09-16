@@ -321,8 +321,8 @@ Note that in the event that you fail to pass an <b>AWS certification exam</b>, y
 a. You must wait 14 days from the day you fail to take the exam again.
 b. You can take an exam up to three times in one year from the date of your first attempt.
 
-<h2>What should I bring to an AWS Certification exam?</h2>
---
+<h3>What should I bring to an AWS Certification exam?</h3>
+-
 
 Candidates must show two forms of personal identification (ID). Primary form must be a valid, government-issued ID containing both a photo and signature. The secondary form of ID needs to be valid and contain a signature.
  <br>
