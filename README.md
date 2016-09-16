@@ -283,4 +283,23 @@ It's possible to set a question for review and skip, you can get back to what yo
 Now you're ready to go. <a href="https://www.webassessor.com/wa.do?page=publicHome&branding=AMAZON">Here's where you book your exam!</a>
 <br>
 <br>
+<h2>Passing the AWS solutions architect - Associate exam > Exam Overview</h2>
+
+You will find you make less errors when you don’t feel rushed on time.
+
+
+The <b>AWS Certified Solutions Architect – Associate exam</b> is intended for individuals with experience designing distributed applications and systems on the AWS platform. 
+
+<b>Exam concepts you should understand for this exam include:</b>
+
+1. Designing and deploying scalable, highly available, and fault tolerant systems on AWS
+2. Lift and shift of an existing on-premises application to AWS
+3. Ingress and egress of data to and from AWS
+4. Selecting the appropriate AWS service based on data, compute, database, or security requirements
+5. Identifying appropriate use of AWS architectural best practices
+6. Estimating AWS costs and identifying cost control mechanisms
+ 
+<h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
+
+
 Good Luck!
