@@ -312,6 +312,7 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 10. Recommend taking Advanced Architecting on AWS
 11. Sample questions for the exam are available here.
 <br><br>
+
 <h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
 <br>
 
