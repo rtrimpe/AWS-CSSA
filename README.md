@@ -310,7 +310,7 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 8. AWS Certification passing scores are set by using statistical analysis and are subject to change. AWS does not publish exam passing scores because exam questions and passing scores are subject to change without notice.
 9. Exam Registration fee is USD 300
 10. Recommend taking Advanced Architecting on AWS
-11. Sample questions for the exam are available here.
+11. Sample questions for the exam are <a href="https://d0.awsstatic.com/Train%20%26%20Cert/docs/AWS_certified_solutions_architect_professional_examsample.pdf">available here</a>.
 <br><br>
 
 <h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
