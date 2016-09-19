@@ -294,8 +294,8 @@ This is a curated list of hands-on material to help you passing this AWS Certifi
 2. 170 minutes to complete the exam. It's all multiple choice on a PC
 3. Exam available in English and Japanese
 4. Practice Exam Registration fee is USD 40
-5. The exam blueprint specified that there would be 100+ questions given in a 180 minute period and did not specify a pass grade. 
-6. The exam will test your knowledge with 180 questions
+5. The Exam blueprint specified that there would be 100+ questions given in a 180 minute period and did not specify a pass grade. 
+6. The exam will test your knowledge with 80 questions
 7. In terms of question complexity, it requires a good understanding of all available AWS services
 8. AWS Certification passing scores are set by using statistical analysis and are subject to change. AWS does not publish exam passing scores because exam questions and passing scores are subject to change without notice
 9. Exam Registration fee is USD 300
