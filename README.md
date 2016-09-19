@@ -343,13 +343,12 @@ b. You can take an exam up to three times in one year from the date of your firs
 To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. In order to pass the exam you have to:
 
 <h3Exam concepts you should understand for this exam include:</h3>
-
-1. Design and deploy dynamically scalable, highly available, and reliable applications on AWS
-2. Choosing appropriate AWS services to create and deploy an application based on specific requirements
+1. Designing and deploying dynamically scalable, highly available, fault tolerant, and reliable applications on AWS
+2. Selecting appropriate AWS services to design and deploy an application based on given requirements
 3. Migrating complex, multi-tier applications on AWS
 4. Designing and deploying enterprise-wide scalable operations on AWS
 5. Implementing cost control strategies
-6. Estimating AWS costs and identifying cost control mechanisms
+
 <br>
 
 
