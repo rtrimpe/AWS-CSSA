@@ -285,18 +285,6 @@ Now you're ready to go. <a href="https://www.webassessor.com/wa.do?page=publicHo
 <h2>Passing the AWS solutions architect - Professional Exam > Exam Overview</h2>
 
 You will find you make less errors when you don’t feel rushed on time.
-
-
-To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. In order to pass the exam you have to:
-
-<h3Exam concepts you should understand for this exam include:</h3>
-
-1. Design and deploy dynamically scalable, highly available, and reliable applications on AWS
-2. Choosing appropriate AWS services to create and deploy an application based on specific requirements
-3. Migrating complex, multi-tier applications on AWS
-4. Designing and deploying enterprise-wide scalable operations on AWS
-5. Implementing cost control strategies
-6. Estimating AWS costs and identifying cost control mechanisms
 <br>
 
 <h3>Exam Overview</h3>
@@ -351,6 +339,19 @@ Note that in the event that you fail to pass an <b>AWS certification exam</b>, y
 
 a. You must wait 14 days from the day you fail to take the exam again.
 b. You can take an exam up to three times in one year from the date of your first attempt.
+
+To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. In order to pass the exam you have to:
+
+<h3Exam concepts you should understand for this exam include:</h3>
+
+1. Design and deploy dynamically scalable, highly available, and reliable applications on AWS
+2. Choosing appropriate AWS services to create and deploy an application based on specific requirements
+3. Migrating complex, multi-tier applications on AWS
+4. Designing and deploying enterprise-wide scalable operations on AWS
+5. Implementing cost control strategies
+6. Estimating AWS costs and identifying cost control mechanisms
+<br>
+
 
 
 Good Luck!
