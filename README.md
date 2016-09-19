@@ -616,14 +616,14 @@ it.
 AWS Certified Solutions Architect – Professional Level
 Sample Exam Questions
 3
-<h3>Your company hosts an on-premises legacy engineering application with 900GB of data shared via a
+<h4>Your company hosts an on-premises legacy engineering application with 900GB of data shared via a
 central file server. The engineering data consists of thousands of individual files ranging in size from
 megabytes to multiple gigabytes. Engineers typically modify 5-10 percent of the files a day. Your CTO
 would like to migrate this application to AWS, but only if the application can be migrated over the
 weekend to minimize user downtime. You calculate that it will take a minimum of 48 hours to transfer
 900GB of data using your company’s existing 45-Mbps Internet connection.
 After replicating the application’s environment in AWS, which option will allow you to move the
-application’s data to AWS without losing any data and within the given timeframe?</h3>
+application’s data to AWS without losing any data and within the given timeframe?</h4>
 A) Copy the data to Amazon S3 using multiple threads and multi-part upload for large files over the
 weekend, and work in parallel with your developers to reconfigure the replicated application environment
 to leverage Amazon S3 to serve the engineering files.
