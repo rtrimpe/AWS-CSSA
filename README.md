@@ -348,8 +348,17 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 3. Migrating complex, multi-tier applications on AWS
 4. Designing and deploying enterprise-wide scalable operations on AWS
 5. Implementing cost control strategies
-
 <br>
+
+<h3>Candidate Overview </h3>
+
+<p>Eligible candidates for this exam have:</p>
+
+1. Achieved AWS Certified Solutions Architect - Associate 
+2. Two or more years hands-on experience designing and deploying cloud architecture on AWS.
+3. Abilities to evaluate cloud application requirements and make architectural recommendations for implementation, deployment, and provisioning applications on AWS. 
+4. Capabilities to provide best practices guidance on the architectural design across multiple applications, projects, or the enterprise.
+
 
 
 
