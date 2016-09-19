@@ -417,16 +417,19 @@ VTL also requires an upload buffer and cache area
 <li>Data must be replicated to DR from the primary site for failover)</li>
 <li>Warm Standby (again a smaller replication of the live environment but with some services always running to facilitate a quicker failover. It can also be the full complement of servers but running on smaller instances than live. Horizontal scaling is preferred to add more instances to a load balancer)</li>
 <li>Multi-site (active/active configuration where DNS sends traffic to both sites simultaneously. Auto scaling can also add instances for load where required. DNS weighting can be used to route traffic accordingly). DNS weighting is done as a percentage, so if two records have weightings of 10, then the overall is 20 and the percentage is 50% chance of either being used, this is round robin. Weights of 10 and 40 would mean a total of weight 50, with 1 in 5 chance of weight 10 DNS record being used</li>
-Import/Export can import data sets into S3, EBS or Glacier. You can only export from S3
-Import/Export makes sense for large datasets that cannot be moved or copied into AWS over the internet in an efficient manner (time, cost, etc)
-AWS will export data back to you encrypted with TrueCrypt
-AWS will wipe devices after import if specified
-If exporting from an S3 bucket with versioning enabled, only the most recent version is exported
-Encryption for imports is optional, mandatory for exports
-Some services have automated backup:-
-RDS
-Redshift
-Elasticache (Redis only)
+</ul>
+35. Import/Export can import data sets into S3, EBS or Glacier. You can only export from S3
+36. Import/Export makes sense for large datasets that cannot be moved or copied into AWS over the internet in an efficient manner (time, cost, etc)
+37. AWS will export data back to you encrypted with TrueCrypt
+38. AWS will wipe devices after import if specified
+39. If exporting from an S3 bucket with versioning enabled, only the most recent version is exported
+40. Encryption for imports is optional, mandatory for exports
+41. Some services have automated backup:-
+<ul>
+<li>RDS</li>
+<li>Redshift</li>
+<li>Elasticache (Redis only)</li>
+</ul>
 EC2 does not have automated backup. You can use either EBS snapshots or create an AMI Image from a running or stopped instance. The latter option is especially useful if you have an instance storage on the host which is ephemeral and will get deleted when the instance is stopped (Bundle Instance). You can “copy” the host storage for the instance by creating an AMI, which can then be copied to another region
 To restore a file on a server for example, take regular snapshots of the EBS volume, create a volume from the snapshot, mount the volume to the instance, browse and recover the files as necessary
 MySQL requires InnoDB for automated backups, if you delete an instance then all automated backups are deleted, manual DB snapshots stored in S3 are not deleted
