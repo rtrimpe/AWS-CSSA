@@ -632,8 +632,8 @@ application’s data to AWS without losing any data and within the given timefra
 A) Copy the data to Amazon S3 using multiple threads and multi-part upload for large files over the
 weekend, and work in parallel with your developers to reconfigure the replicated application environment
 to leverage Amazon S3 to serve the engineering files.<br>
-<b>B) Sync the application data to Amazon S3 starting a week before the migration, on Friday morning perform
-a final sync, and copy the entire data set to your AWS file server after the sync completes.</b><br>
+B) Sync the application data to Amazon S3 starting a week before the migration, on Friday morning perform
+a final sync, and copy the entire data set to your AWS file server after the sync completes.<br>
 C) Copy the application data to a 1-TB USB drive on Friday and immediately send overnight, with Saturday
 delivery, the USB drive to AWS Import/Export to be imported as an EBS volume, mount the resulting EBS
 volume to your AWS file server on Sunday.<br>
