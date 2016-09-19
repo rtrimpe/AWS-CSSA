@@ -626,15 +626,15 @@ After replicating the application’s environment in AWS, which option will allo
 application’s data to AWS without losing any data and within the given timeframe?</h4>
 A) Copy the data to Amazon S3 using multiple threads and multi-part upload for large files over the
 weekend, and work in parallel with your developers to reconfigure the replicated application environment
-to leverage Amazon S3 to serve the engineering files.
+to leverage Amazon S3 to serve the engineering files.<br>
 B) Sync the application data to Amazon S3 starting a week before the migration, on Friday morning perform
-a final sync, and copy the entire data set to your AWS file server after the sync completes.
+a final sync, and copy the entire data set to your AWS file server after the sync completes.<br>
 C) Copy the application data to a 1-TB USB drive on Friday and immediately send overnight, with Saturday
 delivery, the USB drive to AWS Import/Export to be imported as an EBS volume, mount the resulting EBS
-volume to your AWS file server on Sunday.
+volume to your AWS file server on Sunday.<br>
 D) Leverage the AWS Storage Gateway to create a Gateway-Stored volume. On Friday copy the application
 data to the Storage Gateway volume. After the data has been copied, perform a snapshot of the volume
-and restore the volume as an EBS volume to be attached to your AWS file server on Sunday.
+and restore the volume as an EBS volume to be attached to your AWS file server on Sunday.<br>
 
 
 
