@@ -291,7 +291,7 @@ This is a curated list of hands-on material to help you passing this AWS Certifi
 <h3>Exam Overview</h3>
 
 1. Multiple choice and multiple answer questions
-2. 170 minutes to complete the exam It's all multiple choice on a PC
+2. 170 minutes to complete the exam. It's all multiple choice on a PC
 3. Exam available in English and Japanese
 4. Practice Exam Registration fee is USD 40
 5. The exam blueprint specified that there would be 100+ questions given in a 180 minute period and did not specify a pass grade. 
