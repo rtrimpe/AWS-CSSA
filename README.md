@@ -532,9 +532,9 @@ To prepare at best for the exam you should start with an overview of the concept
 
 > Which AWS based disaster recovery strategy will give you the best RTO?
 
-A) Deploy the Oracle database and the JBoss app server on EC2. Restore the RMAN Oracle backups from
+<b>A) Deploy the Oracle database and the JBoss app server on EC2. Restore the RMAN Oracle backups from
 Amazon S3. Generate an EBS volume of static content from the Storage Gateway and attach it to the
-JBoss EC2 server.<br>
+JBoss EC2 server.<br></b>
 B) Deploy the Oracle database on RDS. Deploy the JBoss app server on EC2. Restore the RMAN Oracle
 backups from Amazon Glacier. Generate an EBS volume of static content from the Storage Gateway and
 attach it to the JBoss EC2 server.<br>
@@ -552,7 +552,7 @@ event of this kind of failure?
 A) Take 15-minute DB backups stored in Amazon Glacier, with transaction logs stored in Amazon S3 every
 5 minutes.<br>
 B) Use synchronous database master-slave replication between two Availability Zones.<br>
-C) Take hourly DB backups to Amazon S3, with transaction logs stored in S3 every 5 minutes.<br>
+<b>C) Take hourly DB backups to Amazon S3, with transaction logs stored in S3 every 5 minutes.<br></b>
 D) Take hourly DB backups to an Amazon EC2 instance store volume, with transaction logs stored in
 Amazon S3 every 5 minutes.<br>
 
@@ -567,9 +567,9 @@ A) Provide the JavaScript client with temporary credentials from the Security To
 Vending Machine (TVM) on an EC2 instance to provide signed credentials mapped to an Amazon Identity
 and Access Management (IAM) user allowing DynamoDB puts and S3 gets. You serve your mobile
 application out of an S3 bucket enabled as a web site. Your client updates DynamoDB.<br>
-B) Register the application with a Web Identity Provider like Amazon, Google, or Facebook, create an IAM
+<b>B) Register the application with a Web Identity Provider like Amazon, Google, or Facebook, create an IAM
 role for that provider, and set up permissions for the IAM role to allow S3 gets and DynamoDB puts. You
-serve your mobile application out of an S3 bucket enabled as a web site. Your client updates DynamoDB.<br>
+serve your mobile application out of an S3 bucket enabled as a web site. Your client updates DynamoDB.<br></b>
 C) Provide the JavaScript client with temporary credentials from the Security Token Service using a Token
 Vending Machine (TVM) to provide signed credentials mapped to an IAM user allowing DynamoDB puts.
 You serve your mobile application out of Apache EC2 instances that are load-balanced and autoscaled.
@@ -600,9 +600,9 @@ encryption.<br>
 C) Use Elastic Load Balancing to distribute traffic to a set of web servers, configure the load balancer to
 perform TCP load balancing, use an AWS CloudHSM to perform the SSL transactions, and write your
 web server logs to a private Amazon S3 bucket using Amazon S3 server-side encryption.<br>
-D) Use Elastic Load Balancing to distribute traffic to a set of web servers. Configure the load balancer to
+<b>D) Use Elastic Load Balancing to distribute traffic to a set of web servers. Configure the load balancer to
 perform TCP load balancing, use an AWS CloudHSM to perform the SSL transactions, and write your
-web server logs to an ephemeral volume that has been encrypted using a randomly generated AES key.<br>
+web server logs to an ephemeral volume that has been encrypted using a randomly generated AES key.<br></b>
 
 > You are designing network connectivity for your fat client application. The application is designed for
 business travelers who must be able to connect to it from their hotel rooms, cafes, public Wi-Fi hotspots,
@@ -616,9 +616,9 @@ B) Implement Elastic Load Balancing with an SSL listener that terminates the bac
 application.<br>
 C) Configure an IPsec VPN connection, and provide the users with the configuration details. Create a public
 subnet in your VPC, and place your application servers in it.<br>
-D) Configure an SSL VPN solution in a public subnet of your VPC, then install and configure SSL VPN client
+<b>D) Configure an SSL VPN solution in a public subnet of your VPC, then install and configure SSL VPN client
 software on all user computers. Create a private subnet in your VPC and place your application servers in
-it.</br>
+it.</br><b>
 
 > Your company hosts an on-premises legacy engineering application with 900GB of data shared via a
 central file server. The engineering data consists of thousands of individual files ranging in size from
@@ -632,8 +632,8 @@ application’s data to AWS without losing any data and within the given timefra
 A) Copy the data to Amazon S3 using multiple threads and multi-part upload for large files over the
 weekend, and work in parallel with your developers to reconfigure the replicated application environment
 to leverage Amazon S3 to serve the engineering files.<br>
-B) Sync the application data to Amazon S3 starting a week before the migration, on Friday morning perform
-a final sync, and copy the entire data set to your AWS file server after the sync completes.<br>
+<b>B) Sync the application data to Amazon S3 starting a week before the migration, on Friday morning perform
+a final sync, and copy the entire data set to your AWS file server after the sync completes.<br></b>
 C) Copy the application data to a 1-TB USB drive on Friday and immediately send overnight, with Saturday
 delivery, the USB drive to AWS Import/Export to be imported as an EBS volume, mount the resulting EBS
 volume to your AWS file server on Sunday.<br>
