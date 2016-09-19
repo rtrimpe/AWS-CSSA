@@ -289,7 +289,7 @@ You will find you make less errors when you don’t feel rushed on time.
 
 To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. In order to pass the exam you have to:
 
-<b>Exam concepts you should understand for this exam include:</b>
+<h3Exam concepts you should understand for this exam include:</h3>
 
 1. Design and deploy dynamically scalable, highly available, and reliable applications on AWS
 2. Choosing appropriate AWS services to create and deploy an application based on specific requirements
@@ -298,7 +298,8 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 5. Implementing cost control strategies
 6. Estimating AWS costs and identifying cost control mechanisms
 <br>
-<b>Exam Overview</b>
+
+<h3>Exam Overview</h3>
 
 1. Multiple choice and multiple answer questions
 2. 170 minutes to complete the exam It's all multiple choice on a PC
@@ -312,14 +313,6 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 10. Recommend taking Advanced Architecting on AWS
 11. Sample questions for the exam are <a href="https://d0.awsstatic.com/Train%20%26%20Cert/docs/AWS_certified_solutions_architect_professional_examsample.pdf">available here</a>.
 <br><br>
-
-<h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
-<br>
-
-Note that in the event that you fail to pass an <b>AWS certification exam</b>, you may retake the exam subject to the following conditions:
-
-a. You must wait 14 days from the day you fail to take the exam again.
-b. You can take an exam up to three times in one year from the date of your first attempt.
 
 <h3>What should I bring to an AWS Certification exam?</h3>
 -
@@ -350,5 +343,14 @@ However, the paper form of the Health Insurance is not acceptable.
 <br>
 You can NOT bring food, laptops, backpacks, notepads, or other personal equipment to the test area. For all exams, you can request a whiteboard and marker (some centers may hand out paper and pencil), which must be returned before you leave. During check in you’ll be asked to turn out your pockets (on jackets, pants, etc.) to verify they’re empty and free of prohibited items. Eyewear will also be inspected to ensure that it’s not technology-enabled.
 <br><br>
+
+<h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
+<br>
+
+Note that in the event that you fail to pass an <b>AWS certification exam</b>, you may retake the exam subject to the following conditions:
+
+a. You must wait 14 days from the day you fail to take the exam again.
+b. You can take an exam up to three times in one year from the date of your first attempt.
+
 
 Good Luck!
