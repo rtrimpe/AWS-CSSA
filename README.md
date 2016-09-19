@@ -576,7 +576,6 @@ You serve your mobile application out of Apache EC2 instances that are load-bala
 Your EC2 instances are configured with an IAM role that allows DynamoDB puts. Your server updates
 DynamoDB.<br>
 
-2
 D) Register the JavaScript application with a Web Identity Provider like Amazon, Google, or Facebook,
 create an IAM role for that provider, and set up permissions for the IAM role to allow DynamoDB puts.
 You serve your mobile application out of Apache EC2 instances that are load-balanced and autoscaled.
