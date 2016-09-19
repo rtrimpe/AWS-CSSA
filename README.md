@@ -340,7 +340,7 @@ To be eligible for this exam, you must already be certified at the <b>AWS Certif
 
 Note that in the event that you fail to pass an <b>AWS certification exam</b>, you may retake the exam subject to the following conditions:
 
-a. You must wait 14 days from the day you fail to take the exam again.
+a. You must wait 14 days from the day you fail to take the exam again.<br>
 b. You can take an exam up to three times in one year from the date of your first attempt.
 
 This is valid for any AWS Certifiation Exam.
