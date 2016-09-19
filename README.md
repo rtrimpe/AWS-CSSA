@@ -335,14 +335,19 @@ You can NOT bring food, laptops, backpacks, notepads, or other personal equipmen
 <h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
 <br>
 
+To be eligible for this exam, you must already be certified at the <b>AWS Certified Solutions Architect – Associate Level</b>. You should have multiple years of hands-on experience designing and deploying cloud architecture on AWS, along with the ability to evaluate cloud application requirements and make architectural recommendations for implementation, deployment, and provisioning applications on AWS. Additionally, you should have the experience and the capability to provide best practices guidance on the architectural design across multiple applications, projects, or the enterprise.
+
 Note that in the event that you fail to pass an <b>AWS certification exam</b>, you may retake the exam subject to the following conditions:
 
 a. You must wait 14 days from the day you fail to take the exam again.
 b. You can take an exam up to three times in one year from the date of your first attempt.
 
+This is valid for any AWS Certifiation Exam.
+
 To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. Check the short list below to understand you need to master in order to pass the exam.
 
 <h3Exam concepts you should understand for this exam include:</h3>
+
 1. Designing and deploying dynamically scalable, highly available, fault tolerant, and reliable applications on AWS
 2. Selecting appropriate AWS services to design and deploy an application based on given requirements
 3. Migrating complex, multi-tier applications on AWS
@@ -352,12 +357,16 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 
 <h3>Candidate Overview </h3>
 
-<p>Eligible candidates for this exam have:</p>
+<p>This exam tests your knowledge of advanced AWS use cases. Eligible candidates for this exam have:</p>
 
 1. Achieved AWS Certified Solutions Architect - Associate 
 2. Two or more years hands-on experience designing and deploying cloud architecture on AWS.
 3. Abilities to evaluate cloud application requirements and make architectural recommendations for implementation, deployment, and provisioning applications on AWS. 
 4. Capabilities to provide best practices guidance on the architectural design across multiple applications, projects, or the enterprise.
+<br>
+
+<h2>Passing the AWS solutions architect - Associate exam > General Learning Material</h2>
+To prepare at best for the exam you should start with an overview of the concepts and knowledge areas covered on the exam and walks you through the exam structure and question formats. Get an hands-on practice with advanced use cases, while practice exam questions test your understanding of key architectural concepts. 
 
 
 
