@@ -488,10 +488,10 @@ When you do an RDS restore, you can change the engine type (SQL Standard to Ente
 38. Joins
 39. SQL
 
-<br><br>
+<br>
 <i><a href="https://blue-clouds.com/2016/06/21/21-06-16/">Credits to Chris Beckett @ BlueClouds</a>
 
-<h2>Passing the AWS solutions architect - Associate exam > General Learning Material</h2>
+<h2>Passing the AWS solutions architect - Professional exam > General Learning Material</h2>
 To prepare at best for the exam you should start with an overview of the concepts and knowledge areas covered on the exam and walks you through the exam structure and question formats. Get an hands-on practice with advanced use cases, while practice exam questions test your understanding of key architectural concepts. 
 
 1. <a href="https://cloudacademy.com/learning-paths/solutions-architect-professional-aws-17/">Solutions Architect—  Professional Certification for AWS (2016)</a>
