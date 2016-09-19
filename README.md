@@ -534,26 +534,28 @@ To prepare at best for the exam you should start with an overview of the concept
 
 A) Deploy the Oracle database and the JBoss app server on EC2. Restore the RMAN Oracle backups from
 Amazon S3. Generate an EBS volume of static content from the Storage Gateway and attach it to the
-JBoss EC2 server.
+JBoss EC2 server.<br>
 B) Deploy the Oracle database on RDS. Deploy the JBoss app server on EC2. Restore the RMAN Oracle
 backups from Amazon Glacier. Generate an EBS volume of static content from the Storage Gateway and
-attach it to the JBoss EC2 server.
+attach it to the JBoss EC2 server.<br>
 C) Deploy the Oracle database and the JBoss app server on EC2. Restore the RMAN Oracle backups from
 Amazon S3. Restore the static content by attaching an AWS Storage Gateway running on Amazon EC2
-as an iSCSI volume to the JBoss EC2 server.
+as an iSCSI volume to the JBoss EC2 server.<br>
 D) Deploy the Oracle database and the JBoss app server on EC2. Restore the RMAN Oracle backups from
-Amazon S3. Restore the static content from an AWS Storage Gateway-VTL running on Amazon EC2
+Amazon S3. Restore the static content from an AWS Storage Gateway-VTL running on Amazon EC2<br>
+
 > An ERP application is deployed in multiple Availability Zones in a single region. In the event of failure, the
 RTO must be less than 3 hours, and the RPO is 15 minutes. The customer realizes that data corruption
 occurred roughly 1.5 hours ago. Which DR strategy can be used to achieve this RTO and RPO in the
 event of this kind of failure?
 
 A) Take 15-minute DB backups stored in Amazon Glacier, with transaction logs stored in Amazon S3 every
-5 minutes.
-B) Use synchronous database master-slave replication between two Availability Zones.
-C) Take hourly DB backups to Amazon S3, with transaction logs stored in S3 every 5 minutes.
+5 minutes.<br>
+B) Use synchronous database master-slave replication between two Availability Zones.<br>
+C) Take hourly DB backups to Amazon S3, with transaction logs stored in S3 every 5 minutes.<br>
 D) Take hourly DB backups to an Amazon EC2 instance store volume, with transaction logs stored in
-Amazon S3 every 5 minutes.
+Amazon S3 every 5 minutes.<br>
+
 > The Marketing Director in your company asked you to create a mobile app that lets users post sightings
 of good deeds known as random acts of kindness in 80-character summaries. You decided to write the
 application in JavaScript so that it would run on the broadest range of phones, browsers, and tablets.
@@ -564,7 +566,7 @@ and scalable architecture for this application?
 A) Provide the JavaScript client with temporary credentials from the Security Token Service using a Token
 Vending Machine (TVM) on an EC2 instance to provide signed credentials mapped to an Amazon Identity
 and Access Management (IAM) user allowing DynamoDB puts and S3 gets. You serve your mobile
-application out of an S3 bucket enabled as a web site. Your client updates DynamoDB.
+application out of an S3 bucket enabled as a web site. Your client updates DynamoDB.<br>
 B) Register the application with a Web Identity Provider like Amazon, Google, or Facebook, create an IAM
 role for that provider, and set up permissions for the IAM role to allow S3 gets and DynamoDB puts. You
 serve your mobile application out of an S3 bucket enabled as a web site. Your client updates DynamoDB.
@@ -572,15 +574,15 @@ C) Provide the JavaScript client with temporary credentials from the Security To
 Vending Machine (TVM) to provide signed credentials mapped to an IAM user allowing DynamoDB puts.
 You serve your mobile application out of Apache EC2 instances that are load-balanced and autoscaled.
 Your EC2 instances are configured with an IAM role that allows DynamoDB puts. Your server updates
-DynamoDB.
-AWS Certified Solutions Architect – Professional Level
-Sample Exam Questions
+DynamoDB.<br>
+
 2
 D) Register the JavaScript application with a Web Identity Provider like Amazon, Google, or Facebook,
 create an IAM role for that provider, and set up permissions for the IAM role to allow DynamoDB puts.
 You serve your mobile application out of Apache EC2 instances that are load-balanced and autoscaled.
 Your EC2 instances are configured with an IAM role that allows DynamoDB puts. Your server updates
 DynamoDB.
+
 > You are building a website that will retrieve and display highly sensitive information to users. The amount
 of traffic the site will receive is known and not expected to fluctuate. The site will leverage SSL to protect
 the communication between the clients and the web servers. Due to the nature of the site you are very
@@ -619,17 +621,15 @@ subnet in your VPC, and place your application servers in it.
 D) Configure an SSL VPN solution in a public subnet of your VPC, then install and configure SSL VPN client
 software on all user computers. Create a private subnet in your VPC and place your application servers in
 it.
-AWS Certified Solutions Architect – Professional Level
-Sample Exam Questions
-3
-> <h4>Your company hosts an on-premises legacy engineering application with 900GB of data shared via a
+
+> Your company hosts an on-premises legacy engineering application with 900GB of data shared via a
 central file server. The engineering data consists of thousands of individual files ranging in size from
 megabytes to multiple gigabytes. Engineers typically modify 5-10 percent of the files a day. Your CTO
 would like to migrate this application to AWS, but only if the application can be migrated over the
 weekend to minimize user downtime. You calculate that it will take a minimum of 48 hours to transfer
 900GB of data using your company’s existing 45-Mbps Internet connection.
 After replicating the application’s environment in AWS, which option will allow you to move the
-application’s data to AWS without losing any data and within the given timeframe?</h4>
+application’s data to AWS without losing any data and within the given timeframe?
 
 A) Copy the data to Amazon S3 using multiple threads and multi-part upload for large files over the
 weekend, and work in parallel with your developers to reconfigure the replicated application environment
@@ -643,7 +643,5 @@ volume to your AWS file server on Sunday.<br>
 D) Leverage the AWS Storage Gateway to create a Gateway-Stored volume. On Friday copy the application
 data to the Storage Gateway volume. After the data has been copied, perform a snapshot of the volume
 and restore the volume as an EBS volume to be attached to your AWS file server on Sunday.<br>
-
-
 
 Good Luck!
