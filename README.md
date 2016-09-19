@@ -529,7 +529,7 @@ To prepare at best for the exam you should start with an overview of the concept
 <br>
 <h2>Passing the AWS solutions architect - Professional Exam > Blueprints Exam</h2>
 
-<p>In this AWS whitepaper you'll find a sample exam. Here's a preview:</p>
+<p>In this PDF you can download the Sample Question provided by AWS<a href="https://d0.awsstatic.com/Train%20&%20Cert/docs/AWS_certified_solutions_architect_professional_examsample.pdf">. We reviewed all the questions provided by AWS and you can find the correct answers marked in bold.</p>
 
 > Which AWS based disaster recovery strategy will give you the best RTO?
 
@@ -642,4 +642,5 @@ D) Leverage the AWS Storage Gateway to create a Gateway-Stored volume. On Friday
 data to the Storage Gateway volume. After the data has been copied, perform a snapshot of the volume
 and restore the volume as an EBS volume to be attached to your AWS file server on Sunday.<br>
 
-Good Luck!
+<br>
+
