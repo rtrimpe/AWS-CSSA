@@ -488,7 +488,6 @@ When you do an RDS restore, you can change the engine type (SQL Standard to Ente
 38. Joins
 39. SQL
 
-<br>
 <i><a href="https://blue-clouds.com/2016/06/21/21-06-16/">Credits to Chris Beckett @ BlueClouds</a>
 
 <h2>Passing the AWS solutions architect - Professional exam > General Learning Material</h2>
