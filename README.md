@@ -644,3 +644,20 @@ and restore the volume as an EBS volume to be attached to your AWS file server o
 
 <br>
 
+<h2>The Exam Day</h2>
+
+<b>Just a couple of suggestions to pass the AWS Solutions Architect Professional level certification:</b>
+
+1. Wake up early every day and have a nice breakfast in the morning
+2. No coffee, try to eat a banana and a cup of orange juice every morning 
+3. Practice with [our specific resources for the AWS Certifications](https://cloudacademy.com/aws-certifications-training/)
+4. Drink water every day
+5. Get the most out of [this GitHub repository](https://gist.github.com/leonardofed/bbf6459ad154ad5215d354f3825435dc)
+6. Rewatch [this](https://cloudacademy.com/webinars/how-study-aws-solutions-architect-professional-certification-24/) AWS 7. 7. Solution Architect Professional level certification detailed study-guide with tips and tricks on how to pass the certification
+8. AWS Youtube channel: watch as many of the technical seminars and re:Invent presentations as you can. Then re-watch. Make notes.
+9. I would say that your chance of passing the course if you have not have had any practical experience to be seriously compromised. You have no excuse, get an account, login and play.
+10. Do some sport every day to reset your mind out of work and try to sleep 7h every night 
+11. Repeat
+12. Once you are feeling confident enough you can take a practice exam [here](https://www.webassessor.com/wa.do?page=publicHome&branding=AMAZON)
+13. Smile at least once every day 
+14. Have fun
