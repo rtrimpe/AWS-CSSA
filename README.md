@@ -399,7 +399,7 @@ To prepare at best for the exam you should start with an overview of the concept
 <br>
 
 <h2>Passing the AWS solutions architect - Associate exam > Blueprints exam</h2>
--
+
 <p>In this AWS whitepaper you'll find a sample exam. Here's a preview:</p>
 
 
