@@ -653,7 +653,7 @@ and restore the volume as an EBS volume to be attached to your AWS file server o
 3. Practice with [our specific resources for the AWS Certifications](https://cloudacademy.com/aws-certifications-training/)
 4. Drink water every day
 5. Get the most out of [this GitHub repository](https://gist.github.com/leonardofed/bbf6459ad154ad5215d354f3825435dc)
-6. Rewatch [this](https://cloudacademy.com/webinars/how-study-aws-solutions-architect-professional-certification-24/) AWS 7. 7. Solution Architect Professional level certification detailed study-guide with tips and tricks on how to pass the certification
+6. Rewatch the [AWS Solution Architect Professional level certification detailed study-guide with tips and tricks on how to pass the certification](https://cloudacademy.com/webinars/how-study-aws-solutions-architect-professional-certification-24/)
 8. AWS Youtube channel: watch as many of the technical seminars and re:Invent presentations as you can. Then re-watch. Make notes.
 9. I would say that your chance of passing the course if you have not have had any practical experience to be seriously compromised. You have no excuse, get an account, login and play.
 10. Do some sport every day to reset your mind out of work and try to sleep 7h every night 
