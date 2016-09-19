@@ -365,8 +365,7 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 4. Capabilities to provide best practices guidance on the architectural design across multiple applications, projects, or the enterprise.
 <br>
 
-You also have to:
-
+<h2>Key Points to pass the Exam:</h2>
 <b>Demonstrate ability to architect the appropriate level of availability based on stakeholder requirements</b>
 
 1. Stakeholder requirements is key phrase here – look at what the requirements are first before deciding the best way to architect the solution
@@ -488,6 +487,9 @@ When you do an RDS restore, you can change the engine type (SQL Standard to Ente
 37. ACID (durability) compliance
 38. Joins
 39. SQL
+
+<br><br>
+<i><a href="https://blue-clouds.com/2016/06/21/21-06-16/">Credits to Chris Beckett @ BlueClouds</a>
 
 <h2>Passing the AWS solutions architect - Associate exam > General Learning Material</h2>
 To prepare at best for the exam you should start with an overview of the concepts and knowledge areas covered on the exam and walks you through the exam structure and question formats. Get an hands-on practice with advanced use cases, while practice exam questions test your understanding of key architectural concepts. 
