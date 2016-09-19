@@ -366,14 +366,14 @@ To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you ha
 <br>
 
 <h2>Key Points to pass the Exam:</h2>
-<b>Demonstrate ability to architect the appropriate level of availability based on stakeholder requirements</b>
+<h3>Demonstrate ability to architect the appropriate level of availability based on stakeholder requirements</h3>
 
 1. Stakeholder requirements is key phrase here – look at what the requirements are first before deciding the best way to architect the solution
 2. What is availability? Basically up time. Does the customer need 99.99% up time or less? Which products may need to be used to meet this requirement?
 3. Look at products which are single AZ, multi AZ and multi region. It may be the case that a couple of instances in a single AZ will suffice if cost is a factor
 4. CloudWatch can be used to perform EC2 or auto scaling actions when status checks fail or metrics are exceeded (alarms, etc)
 
-<b>Demonstrate ability to implement DR for systems based on RPO and RTO</b>
+<h3>Demonstrate ability to implement DR for systems based on RPO and RTO</h3>
 
 1. What is DR? It is the recovery of systems, services and applications after an unplanned period of downtime.
 2. What is RPO? Recovery Point Objective. At which point in time do we need to get back to when DR processes are invoked? 3. 3. This would come from a customer requirement – when systems are recovered, data is consistent from 30 minutes prior to the outage, or 1 hour, or 4 hours etc. What is acceptable to the stakeholder?
@@ -438,14 +438,14 @@ When you do an RDS restore, you can change the engine type (SQL Standard to Ente
 46. Redshift backups are stored on S3 and have a 1 day retention period by default and only backs up delta changes to keep storage consumption to a minimum
 47. EC2 snapshots are stored in S3 and are incremental and each snapshot still contains the base snapshot data. You are only charged for the incremental snapshot storage
 
-<b>1.3 Determine appropriate use of multi-Availability Zones vs. multi-Region architectures</b>
+<h3>1.3 Determine appropriate use of multi-Availability Zones vs. multi-Region architectures</h3>
 
 1. Multi-AZ services examples are S3, RDS, DynamoDB. Using multi-AZ can mitigate against the loss of up to two AZs (data centres, assuming there are three. Some regions only have two). This can provide a good balance between cost, complexity and reliability
 2. Multi-region services can mitigate failures in AZs or individual regions, but may cost more and introduce more infrastructure and complexity. Use ELB for multi-region failover and resilience, CloudFront
 3. DynamoDB offers cross region replication, RDS offers the ability to snapshot from one region to another to have read only replicas. Code Pipeline has a built in template for replicating DynamoDB elsewhere for DR
 4. Redshift can snapshot within the same region and also replicate to another region
 
-<b>1.4 Demonstrate ability to implement self-healing capabilities</b>
+<h3>Demonstrate ability to implement self-healing capabilities</h3>
 
 1. HA available already for most popular databases:-
 2. SQL Server Availability Groups, SQL Mirroring, log shipping. Read replicas in other AZs not supported
