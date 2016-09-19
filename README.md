@@ -438,7 +438,7 @@ When you do an RDS restore, you can change the engine type (SQL Standard to Ente
 46. Redshift backups are stored on S3 and have a 1 day retention period by default and only backs up delta changes to keep storage consumption to a minimum
 47. EC2 snapshots are stored in S3 and are incremental and each snapshot still contains the base snapshot data. You are only charged for the incremental snapshot storage
 
-<h3>1.3 Determine appropriate use of multi-Availability Zones vs. multi-Region architectures</h3>
+<h3>Determine appropriate use of multi-Availability Zones vs. multi-Region architectures</h3>
 
 1. Multi-AZ services examples are S3, RDS, DynamoDB. Using multi-AZ can mitigate against the loss of up to two AZs (data centres, assuming there are three. Some regions only have two). This can provide a good balance between cost, complexity and reliability
 2. Multi-region services can mitigate failures in AZs or individual regions, but may cost more and introduce more infrastructure and complexity. Use ELB for multi-region failover and resilience, CloudFront
