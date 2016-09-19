@@ -346,7 +346,7 @@ This is valid for any AWS Certifiation Exam.
 
 To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. Check the short list below to understand you need to master in order to pass the exam.
 
-<h3Exam concepts you should understand for this exam include:</h3>
+<h3>Exam concepts you should understand for this exam include:</h3>
 
 1. Designing and deploying dynamically scalable, highly available, fault tolerant, and reliable applications on AWS
 2. Selecting appropriate AWS services to design and deploy an application based on given requirements
