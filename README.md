@@ -19,7 +19,7 @@ Index:
       <li>Direct experience from AWS Certified members</li>
       <li>The exam</li>
       </ul>
-    <li><b>Passing the AWS solutions architect - Professional exam (Coming soon...)</b></li>
+    <li><b>Passing the AWS solutions architect - Professional exam (Published ☑)</b></li>
       <ul>
       <li>Exam Overview</li>
       <li>Prerequisites</li>
@@ -28,7 +28,7 @@ Index:
       <li>Direct experience from AWS Certified members</li>
       <li>The exam</li>
       </ul>
-    <li><b>Passing the AWS SysOps Administrator Certification (Published ☑)</b></li>
+    <li><b>Passing the AWS SysOps Administrator Certification (Coming soon...)</b></li>
       <ul>
       <li>Exam Overview</li>
       <li>Prerequisites</li>
