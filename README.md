@@ -526,7 +526,7 @@ To prepare at best for the exam you should start with an overview of the concept
 27. <a href="https://soundcloud.com/cloudacademyinc/cloud-academy-office-hours-aws-certifications-special-guest">Interview with 5 AWS Certified Greg Cockburn (Podcast)</a>
 28. <a href="https://soundcloud.com/cloudacademyinc/cloud-academy-office-hours-special-guest">Interview with 5 AWS Certified Stephen Wilding (Podcast)</a>
 <br>
-<h2>Passing the AWS solutions architect - Associate exam > Blueprints exam</h2>
+<h2>Passing the AWS solutions architect - Professional Exam > Blueprints Exam</h2>
 
 <p>In this AWS whitepaper you'll find a sample exam. Here's a preview:</p>
 
