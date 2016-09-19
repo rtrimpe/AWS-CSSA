@@ -332,7 +332,7 @@ However, the paper form of the Health Insurance is not acceptable.
 You can NOT bring food, laptops, backpacks, notepads, or other personal equipment to the test area. For all exams, you can request a whiteboard and marker (some centers may hand out paper and pencil), which must be returned before you leave. During check in you’ll be asked to turn out your pockets (on jackets, pants, etc.) to verify they’re empty and free of prohibited items. Eyewear will also be inspected to ensure that it’s not technology-enabled.
 <br><br>
 
-<h2>Passing the AWS solutions architect - Associate exam > Prerequisites & Requirements</h2>
+<h2>Passing the AWS solutions architect - Professional exam > Prerequisites & Requirements</h2>
 <br>
 
 To be eligible for this exam, you must already be certified at the <b>AWS Certified Solutions Architect – Associate Level</b>. You should have multiple years of hands-on experience designing and deploying cloud architecture on AWS, along with the ability to evaluate cloud application requirements and make architectural recommendations for implementation, deployment, and provisioning applications on AWS. Additionally, you should have the experience and the capability to provide best practices guidance on the architectural design across multiple applications, projects, or the enterprise.
