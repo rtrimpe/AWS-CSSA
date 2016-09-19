@@ -430,61 +430,64 @@ VTL also requires an upload buffer and cache area
 <li>Redshift</li>
 <li>Elasticache (Redis only)</li>
 </ul>
-EC2 does not have automated backup. You can use either EBS snapshots or create an AMI Image from a running or stopped instance. The latter option is especially useful if you have an instance storage on the host which is ephemeral and will get deleted when the instance is stopped (Bundle Instance). You can “copy” the host storage for the instance by creating an AMI, which can then be copied to another region
-To restore a file on a server for example, take regular snapshots of the EBS volume, create a volume from the snapshot, mount the volume to the instance, browse and recover the files as necessary
-MySQL requires InnoDB for automated backups, if you delete an instance then all automated backups are deleted, manual DB snapshots stored in S3 are not deleted
-All backups are stored in S3
+42. EC2 does not have automated backup. You can use either EBS snapshots or create an AMI Image from a running or stopped instance. The latter option is especially useful if you have an instance storage on the host which is ephemeral and will get deleted when the instance is stopped (Bundle Instance). You can “copy” the host storage for the instance by creating an AMI, which can then be copied to another region
+43. To restore a file on a server for example, take regular snapshots of the EBS volume, create a volume from the snapshot, mount the volume to the instance, browse and recover the files as necessary
+44. MySQL requires InnoDB for automated backups, if you delete an instance then all automated backups are deleted, manual DB snapshots stored in S3 are not deleted
+45. All backups are stored in S3
 When you do an RDS restore, you can change the engine type (SQL Standard to Enterprise, for example), assuming you have enough storage space.
-Elasticache automated backups snapshot the whole cluster, so there will be performance degradation whilst this takes place. Backups are stored on S3.
-Redshift backups are stored on S3 and have a 1 day retention period by default and only backs up delta changes to keep storage consumption to a minimum
-EC2 snapshots are stored in S3 and are incremental and each snapshot still contains the base snapshot data. You are only charged for the incremental snapshot storage
-1.3 Determine appropriate use of multi-Availability Zones vs. multi-Region architectures
+46. Elasticache automated backups snapshot the whole cluster, so there will be performance degradation whilst this takes place. Backups are stored on S3.
+46. Redshift backups are stored on S3 and have a 1 day retention period by default and only backs up delta changes to keep storage consumption to a minimum
+47. EC2 snapshots are stored in S3 and are incremental and each snapshot still contains the base snapshot data. You are only charged for the incremental snapshot storage
 
-Multi-AZ services examples are S3, RDS, DynamoDB. Using multi-AZ can mitigate against the loss of up to two AZs (data centres, assuming there are three. Some regions only have two). This can provide a good balance between cost, complexity and reliability
-Multi-region services can mitigate failures in AZs or individual regions, but may cost more and introduce more infrastructure and complexity. Use ELB for multi-region failover and resilience, CloudFront
-DynamoDB offers cross region replication, RDS offers the ability to snapshot from one region to another to have read only replicas. Code Pipeline has a built in template for replicating DynamoDB elsewhere for DR
-Redshift can snapshot within the same region and also replicate to another region
-1.4 Demonstrate ability to implement self-healing capabilities
+<b>1.3 Determine appropriate use of multi-Availability Zones vs. multi-Region architectures</b>
 
-HA available already for most popular databases:-
-SQL Server Availability Groups, SQL Mirroring, log shipping. Read replicas in other AZs not supported
-MySQL – Asynchronous mirroring
-Oracle – Data Guard, RAC (RAC not supported on AWS but can run on EC2 by using VPN and Placement Groups as multicast is not supported)
-RDS has multi-AZ automatic failover to protect against
-Loss of availability in primary AZ
-Loss of connectivity to primary DB
-Storage or host failure of primary DB
-Software patching (done by AWS, remember)
-Rebooting of primary DB
-Uses master and slave model
-MySQL, Oracle and Postgres use physical layer replication to keep data consistent on the standby instance
-SQL Server uses application layer mirroring but achieves the same result
-Multi-AZ uses synchronous replication (consistent read/write), asynchronous (potential data loss) is only used for read replicas
-DB backups are taken from the secondary to reduce I/O load on the primary
-DB restores are taken from the secondary to avoid I/O suspension on the primary
-AZ failover can be forced by rebooting your instance either via the console or via the RebootDBInstance API call
-Multi-AZ databases are used for DR, not as a scaling solution. Scale can be achieved by using read replicas, this can be done via the AWS console or by using the CreateDBInstanceReadReplica API call
-Amazon Aurora employs a highly durable, SSD-backed virtualized storage layer purpose-built for database workloads. Amazon Aurora automatically replicates your volume six ways, across three Availability Zones. Amazon Aurora storage is fault-tolerant, transparently handling the loss of up to two copies of data without affecting database write availability and up to three copies without affecting read availability. Amazon Aurora storage is also self-healing. Data blocks and disks are continuously scanned for errors and replaced automatically.
-Creating a read replica means a snapshot of your primary DB instance, this may result in a pause of about a minute in non multi-AZ deployments
-Multi-AZ deployments will use a secondary for a snapshot
-A new DNS endpoint address is given for the read only replica, you need to update the app
-You can promote a read only replica to be a standalone, but this breaks replication
-MySQL and Postgres can have up to 5 replicas
-Read replicas in different regions for MySQL only
-Replication is asynchronous only
-Read replicas can be built off Multi-AZ databases
-Read replicas are not multi-AZ
-MySQL can have read replicas of read replicas, but this increases latency
-DB Snapshots and automated backups cannot be taken of read replicas
-Consider using DynamoDB instead of RDS if your database does not require:-
-Transaction support
-Atomicity
-Consistency
-Isolation
-Durability
-ACID (durability) compliance
-Joins
-SQL
+1. Multi-AZ services examples are S3, RDS, DynamoDB. Using multi-AZ can mitigate against the loss of up to two AZs (data centres, assuming there are three. Some regions only have two). This can provide a good balance between cost, complexity and reliability
+2. Multi-region services can mitigate failures in AZs or individual regions, but may cost more and introduce more infrastructure and complexity. Use ELB for multi-region failover and resilience, CloudFront
+3. DynamoDB offers cross region replication, RDS offers the ability to snapshot from one region to another to have read only replicas. Code Pipeline has a built in template for replicating DynamoDB elsewhere for DR
+4. Redshift can snapshot within the same region and also replicate to another region
+
+<b>1.4 Demonstrate ability to implement self-healing capabilities</b>
+
+1. HA available already for most popular databases:-
+2. SQL Server Availability Groups, SQL Mirroring, log shipping. Read replicas in other AZs not supported
+3. MySQL – Asynchronous mirroring
+4. Oracle – Data Guard, RAC (RAC not supported on AWS but can run on EC2 by using VPN and Placement Groups as multicast is not supported)
+5. RDS has multi-AZ automatic failover to protect against
+6. Loss of availability in primary AZ
+7. Loss of connectivity to primary DB
+8. Storage or host failure of primary DB
+9. Software patching (done by AWS, remember)
+10. Rebooting of primary DB
+11. Uses master and slave model
+12. MySQL, Oracle and Postgres use physical layer replication to keep data consistent on the standby instance
+13. SQL Server uses application layer mirroring but achieves the same result
+14. Multi-AZ uses synchronous replication (consistent read/write), asynchronous (potential data loss) is only used for read replicas
+15. DB backups are taken from the secondary to reduce I/O load on the primary
+16. DB restores are taken from the secondary to avoid I/O suspension on the primary
+17. AZ failover can be forced by rebooting your instance either via the console or via the RebootDBInstance API call
+18. Multi-AZ databases are used for DR, not as a scaling solution. Scale can be achieved by using read replicas, this can be done via the AWS console or by using the CreateDBInstanceReadReplica API call
+19. Amazon Aurora employs a highly durable, SSD-backed virtualized storage layer purpose-built for database workloads. 
+20. Amazon Aurora automatically replicates your volume six ways, across three Availability Zones. Amazon Aurora storage is fault-tolerant, transparently handling the loss of up to two copies of data without affecting database write availability and up to three copies without affecting read availability. Amazon Aurora storage is also self-healing. Data blocks and disks are continuously scanned for errors and replaced automatically.
+21. Creating a read replica means a snapshot of your primary DB instance, this may result in a pause of about a minute in non multi-AZ deployments
+22. Multi-AZ deployments will use a secondary for a snapshot
+23. A new DNS endpoint address is given for the read only replica, you need to update the app
+24. You can promote a read only replica to be a standalone, but this breaks replication
+25. MySQL and Postgres can have up to 5 replicas
+26. Read replicas in different regions for MySQL only
+26. Replication is asynchronous only
+27. Read replicas can be built off Multi-AZ databases
+28. Read replicas are not multi-AZ
+29. MySQL can have read replicas of read replicas, but this increases latency
+30. DB Snapshots and automated backups cannot be taken of read replicas
+31. Consider using DynamoDB instead of RDS if your database does not require:-
+32. Transaction support
+33. Atomicity
+34. Consistency
+35. Isolation
+36. Durability
+37. ACID (durability) compliance
+38. Joins
+39. SQL
 
 <h2>Passing the AWS solutions architect - Associate exam > General Learning Material</h2>
 To prepare at best for the exam you should start with an overview of the concepts and knowledge areas covered on the exam and walks you through the exam structure and question formats. Get an hands-on practice with advanced use cases, while practice exam questions test your understanding of key architectural concepts. 
