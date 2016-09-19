@@ -658,6 +658,6 @@ and restore the volume as an EBS volume to be attached to your AWS file server o
 9. I would say that your chance of passing the course if you have not have had any practical experience to be seriously compromised. You have no excuse, get an account, login and play.
 10. Do some sport every day to reset your mind out of work and try to sleep 7h every night 
 11. Repeat
-12. Once you are feeling confident enough you can take a practice exam [here](https://www.webassessor.com/wa.do?page=publicHome&branding=AMAZON)
+12. Once you are feeling confident enough you are ready to take a practice exam [here](https://www.webassessor.com/wa.do?page=publicHome&branding=AMAZON)
 13. Smile at least once every day 
 14. Have fun
