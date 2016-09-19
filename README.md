@@ -340,7 +340,7 @@ Note that in the event that you fail to pass an <b>AWS certification exam</b>, y
 a. You must wait 14 days from the day you fail to take the exam again.
 b. You can take an exam up to three times in one year from the date of your first attempt.
 
-To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. In order to pass the exam you have to:
+To pass the <b>AWS Certified Solutions Architect - Professional exam</b>, you have to master advanced and technical skills, not to mention the experience in designing distributed applications and systems using AWS. Check the short list below to understand you need to master in order to pass the exam.
 
 <h3Exam concepts you should understand for this exam include:</h3>
 1. Designing and deploying dynamically scalable, highly available, fault tolerant, and reliable applications on AWS
