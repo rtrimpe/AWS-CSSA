@@ -575,7 +575,6 @@ Vending Machine (TVM) to provide signed credentials mapped to an IAM user allowi
 You serve your mobile application out of Apache EC2 instances that are load-balanced and autoscaled.
 Your EC2 instances are configured with an IAM role that allows DynamoDB puts. Your server updates
 DynamoDB.<br>
-
 D) Register the JavaScript application with a Web Identity Provider like Amazon, Google, or Facebook,
 create an IAM role for that provider, and set up permissions for the IAM role to allow DynamoDB puts.
 You serve your mobile application out of Apache EC2 instances that are load-balanced and autoscaled.
