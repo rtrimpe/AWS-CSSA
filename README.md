@@ -284,7 +284,8 @@ Now you're ready to go. <a href="https://www.webassessor.com/wa.do?page=publicHo
 <br>
 <h2>Passing the AWS solutions architect - Professional Exam > Exam Overview</h2>
 
-You will find you make less errors when you don’t feel rushed on time.
+This is a curated list of hands-on material to help you passing this AWS Certification! This advanced list of selected points are especially for students who already have a working knowledge of AWS and who have passed the Solutions Architect - Associate Certification for AWS exam (prerequisite for sitting the Solutions Architect - Professional Certification for AWS exam). This should be helpful to build and develop your skills as an AWS professional.
+
 <br>
 
 <h3>Exam Overview</h3>
