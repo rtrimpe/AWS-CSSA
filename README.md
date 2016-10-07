@@ -220,7 +220,7 @@ Federated access, SAML, IAM roles and all possible AuthZ/AuthN scenarios - learn
 --
 In <a href="https://www.linkedin.com/pulse/how-get-all-aws-certifications-asia-wong-chun-yin-cyrus-%E9%BB%83%E4%BF%8A%E5%BD%A5-">this other write-up on LinkedIn</a> Wong Chun Yin explained how to get all 5 AWS Certifications in Asia. Below, a couple of great hints for the SA - Associate.
 
-    First of all, associate certifications are not hard, and if you have a chance to take the AWS training, then you just need to concentrate on reading the training slides is more than enough! Remember to read the details explanation under the slides. Good understanding of VPC and IAM is important for all associate exams.
+First of all, associate certifications are not hard, and if you have a chance to take the AWS training, then you just need to concentrate on reading the training slides is more than enough! Remember to read the details explanation under the slides. Good understanding of VPC and IAM is important for all associate exams.
     
 --
 
