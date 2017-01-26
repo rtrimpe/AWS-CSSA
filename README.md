@@ -5,6 +5,8 @@ A curated list of AWS resources to prepare for the AWS Certifications
 
 A curated list of awesome AWS resources you need to prepare for the all 5 AWS Certifications. This gist will include: open source repos, blogs & blogposts, ebooks, PDF, whitepapers, video courses, free lecture, slides, sample test and many other resources. 
 
+For more you can follow me <a href="https://twitter.com/leonardofed">@leonardofed</a>
+
 ----
 
 Index:
