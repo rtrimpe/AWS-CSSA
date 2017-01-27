@@ -664,4 +664,4 @@ and restore the volume as an EBS volume to be attached to your AWS file server o
 13. Smile at least once every day 
 14. Have fun
 
-If you find these useful you can follow me <a href="https://twitter.com/leonardofed">@leonardofed</a>
+If you've found this gist useful you can follow me <a href="https://twitter.com/leonardofed">@leonardofed</a> for more info about AWS Certifications.
