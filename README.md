@@ -30,33 +30,6 @@ Index:
       <li>Direct experience from AWS Certified members</li>
       <li>The exam</li>
       </ul>
-    <li><b>Passing the AWS SysOps Administrator Certification (Coming soon...)</b></li>
-      <ul>
-      <li>Exam Overview</li>
-      <li>Prerequisites</li>
-      <li>General Learning Material</li>
-      <li>Blueprints exam</li>
-      <li>Direct experience from AWS Certified members</li>
-      <li>The exam</li>
-      </ul>
-    <li><b>Passing the AWS DevOps Engineer Certification(Coming soon...)</b></li>
-      <ul>
-      <li>Exam Overview</li>
-      <li>Prerequisites</li>
-      <li>General Learning Material</li>
-      <li>Blueprints exam</li>
-      <li>Direct experience from AWS Certified members</li>
-      <li>The exam</li>
-      </ul>
-      <li><b>Passing the AWS Developer Certification (TBD)</b></li>
-      <ul>
-      <li>Exam Overview</li>
-      <li>Prerequisites</li>
-      <li>General Learning Material</li>
-      <li>Blueprints exam</li>
-      <li>Direct experience from AWS Certified members</li>
-      <li>The exam</li>
-      </ul>
 </ol>
 
 ---
